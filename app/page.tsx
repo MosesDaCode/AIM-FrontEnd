@@ -1,4 +1,4 @@
-import { montserrat, poppins } from "./layout";
+import { montserrat, poppins } from "@/assets/Fonts";
 
 export default function Home() {
   return (

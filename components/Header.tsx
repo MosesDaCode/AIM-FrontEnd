@@ -1,4 +1,4 @@
-import { montserrat } from "@/app/layout";
+import { montserrat } from "@/assets/Fonts";
 import Navbar from "./Navbar";
 
 const Header = () => {
