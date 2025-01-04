@@ -1,10 +1,14 @@
+import ArameansInMedicinePngLogo from "@/assets/ArameansInMedicine";
 import Link from "next/link";
+import Navbar from "./Navbar";
 
 const Header = () => {
   const linkClass = "hover:underline";
 
   return (
     <header className="py-2 px-2 bg-slate-200">
+      <Navbar />
+      {/* <ArameansInMedicinePngLogo />
       <nav>
         <ul className="flex gap-2">
           <li className={linkClass}>
@@ -20,7 +24,7 @@ const Header = () => {
             <Link href="/article">Article</Link>
           </li>
         </ul>
-      </nav>
+      </nav> */}
     </header>
   );
 };
