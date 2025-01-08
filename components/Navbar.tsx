@@ -64,8 +64,8 @@ const Navbar: React.FC = () => {
               </Link>
             </li>
             <li>
-              <Link href="/services" onClick={() => setIsOpen(false)}>
-                Services
+              <Link href="/membership" onClick={() => setIsOpen(false)}>
+                Membership
               </Link>
             </li>
             <li>
