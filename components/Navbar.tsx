@@ -14,10 +14,10 @@ const Navbar: React.FC = () => {
   return (
     <header className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
-        <a className={`flex items-center gap-2 ${linkClasses}`} href="/">
+        <Link className={`flex items-center gap-2 ${linkClasses}`} href="/">
           <div className="text-xl font-bold">AIM</div>
           <ArameansInMedicinePngLogo />
-        </a>
+        </Link>
 
         {/* Hamburger Icon / X Icon */}
         <button
@@ -64,6 +64,11 @@ const Navbar: React.FC = () => {
             <li className={linkClasses}>
               <Link href="/about" onClick={() => setIsOpen(false)}>
                 About
+              </Link>
+            </li>
+            <li className={linkClasses}>
+              <Link href="/symbolism" onClick={() => setIsOpen(false)}>
+                Symbolism
               </Link>
             </li>
             <li className={linkClasses}>
