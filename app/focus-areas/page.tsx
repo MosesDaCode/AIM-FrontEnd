@@ -3,7 +3,7 @@ import { montserrat, poppins } from "@/assets/Fonts";
 export default function About() {
   return (
     <section>
-      <article className="max-w-prose prose mx-auto lg:prose-xl px-4 lg:pt-8lg:grid lg:grid-cols-3">
+      <article className="max-w-prose prose mx-auto lg:prose-xl px-4 lg:pt-8">
         <h1 className={`${montserrat.className} text-4xl`}>Focus Areas</h1>
         <ul className={`${poppins.className}`}>
           <h3>Fellowship</h3>
