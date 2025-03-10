@@ -72,8 +72,8 @@ const Navbar: React.FC = () => {
               </Link>
             </li>
             <li className={linkClasses}>
-              <Link href="/services" onClick={() => setIsOpen(false)}>
-                Services
+              <Link href="/focus-areas" onClick={() => setIsOpen(false)}>
+                Focus Areas
               </Link>
             </li>
             <li className={linkClasses}>
