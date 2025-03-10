@@ -1,6 +1,6 @@
 import { montserrat, poppins } from "@/assets/Fonts";
 
-export default function About() {
+export default function AboutUs() {
   return (
     <section>
       <article className="max-w-prose prose mx-auto lg:prose-xl px-4 lg:pt-8">

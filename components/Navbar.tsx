@@ -77,6 +77,11 @@ const Navbar: React.FC = () => {
               </Link>
             </li>
             <li className={linkClasses}>
+              <Link href="/article" onClick={() => setIsOpen(false)}>
+                Article
+              </Link>
+            </li>
+            <li className={linkClasses}>
               <Link href="/contact" onClick={() => setIsOpen(false)}>
                 Contact
               </Link>
