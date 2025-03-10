@@ -62,8 +62,8 @@ const Navbar: React.FC = () => {
               </Link>
             </li>
             <li className={linkClasses}>
-              <Link href="/about" onClick={() => setIsOpen(false)}>
-                About
+              <Link href="/about-us" onClick={() => setIsOpen(false)}>
+                About us
               </Link>
             </li>
             <li className={linkClasses}>

@@ -1,3 +1,4 @@
+import ArameansInMedicinePngLogo from "@/assets/ArameansInMedicine";
 import { montserrat, poppins } from "@/assets/Fonts";
 
 export default function Symbolism() {
@@ -54,6 +55,8 @@ export default function Symbolism() {
             word in the name <em>Arameans in Medicine</em>, making a new word "aim". AIM
             strives to keep a clear and steady aim towards its goals.
           </p>
+
+          <ArameansInMedicinePngLogo width={300} height={300} />
         </div>
       </article>
     </section>
