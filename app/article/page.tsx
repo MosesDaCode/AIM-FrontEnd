@@ -55,6 +55,17 @@ export default function Article() {
           </p>
 
           <p>Let's work together for a great purpose!</p>
+
+          {/* <div>
+            <p>Does this sound interesting?</p>
+            <p>Would you like to support the cause?</p>
+            <p>Then show your support by sharing us with your contacts!</p>
+            <p>
+              Click <a href="/membership">here</a> or on the white button to
+              register for membership
+            </p>
+            <button>Membership</button>
+          </div> */}
         </div>
       </article>
     </section>
