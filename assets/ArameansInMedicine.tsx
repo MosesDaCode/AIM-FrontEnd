@@ -1,8 +1,21 @@
 import Image from "next/image";
 
-const ArameansInMedicinePngLogo = () => {
+interface ArameansInMedicinePngLogoProps {
+  width?: number;
+  height?: number;
+}
+
+const ArameansInMedicinePngLogo: React.FC<ArameansInMedicinePngLogoProps> = ({
+  width = 50,
+  height = 50,
+}) => {
   return (
-    <Image src="/arameans-in-medicine.png" width={50} height={50} alt="AIM logo" />
+    <Image
+      src="/arameans-in-medicine.png"
+      width={width}
+      height={height}
+      alt="AIM logo"
+    />
   );
 };
 
